@@ -1,5 +1,6 @@
 import Page from './comp/Page.jsx'
 import Transit from './comp/Transit.jsx'
+import ShapeShifter from './comp/ShapeShifter.jsx'
 
 const App = () => {
 
@@ -13,6 +14,8 @@ const App = () => {
       <Page data={'Fifth'}/>
 
       <Transit />
+
+      <ShapeShifter />
 
     </div>
   )
