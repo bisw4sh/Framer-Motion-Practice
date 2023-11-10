@@ -28,7 +28,7 @@ const ShapeShifter = () => {
         />
 
         <motion.div
-        className='h-16 w-16 bg-slate-600'
+        className='h-16 w-16 bg-teal-400'
         whileHover={{ scale: 1.2, rotate: 90 }}
         whileTap={{
         scale: 0.8,
