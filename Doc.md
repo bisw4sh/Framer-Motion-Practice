@@ -106,3 +106,32 @@ Framer Motion has shortcuts for animating to a set of values when gestures start
 >
 </motion.button>
 ```
+
+## useAnimate Hook
+
+- Animate any HTML/SVG element
+- Create complex sequences of animations
+- Control animations with time, speed, play(), pause() and other playback controls.
+
+```jsx
+const MyComponent = () => {
+  const [scope, animate] = useAnimate()
+  
+  useEffect(() => {
+    const animation = async () => {
+      await animate(scope.current, { x: "100%" })
+      animate("li", { opacity: 1 })
+    }
+    
+    animation()
+  }, [])
+
+  return (
+    <ul ref={scope}>
+      <li />
+      <li />
+      <li />
+    </ul>
+  )
+}
+```
