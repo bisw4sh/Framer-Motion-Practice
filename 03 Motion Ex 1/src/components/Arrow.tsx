@@ -54,7 +54,7 @@ export default function Arrow() {
       ref={refArrow}
       onDrag={handleDrag}
       drag
-      whileDrag={{ scale: 1.2, rotate: angle }}
+      whileDrag={{ scale: 1.2, rotate: -angle - 50 }}
       dragElastic={0.2}
       dragSnapToOrigin={true}
       dragTransition={{ bounceStiffness: 600, bounceDamping: 10 }}

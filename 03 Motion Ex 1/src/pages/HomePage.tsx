@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Draggable from "../components/Draggable";
 import Arrow from "../components/Arrow";
+import Time from "../components/Time";
 
 export default function HomePage() {
   return (
@@ -48,6 +49,7 @@ export default function HomePage() {
       >
         Refresh
       </motion.div>
+      <Time />
     </div>
   );
 }

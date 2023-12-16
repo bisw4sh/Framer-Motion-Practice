@@ -15,6 +15,9 @@ export default function Navbar(): JSX.Element {
             <Link to="/cursor">Cursor</Link>
           </li>
           <li className="cursor-pointer hover:underline decoration-wavy	">
+            <Link to="/view">View</Link>
+          </li>
+          <li className="cursor-pointer hover:underline decoration-wavy	">
             <Link to="/empty">Empty</Link>
           </li>
         </ul>
